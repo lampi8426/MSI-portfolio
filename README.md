@@ -1,2 +1,2 @@
 # MSI-portfolio
-Minor Smart Industry Portfolio Website
+Portfolio Website
