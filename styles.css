@@ -1,0 +1,41 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0; 
+    padding: 0; 
+}
+
+footer {
+    text-align: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 6px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.text-box {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.banner {
+    text-align: center;
+    background-color: #093d39;
+    color: #fff;
+    padding: 20px;
+}
+
+.banner h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
