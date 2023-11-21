@@ -79,6 +79,12 @@ footer {
     text-align: center;
 }
 
+.koptekst {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
 .week-text {
     font-size: 14px;
     margin-top: 10px; /* spacing */
