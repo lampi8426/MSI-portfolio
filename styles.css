@@ -34,10 +34,6 @@ footer {
     border-radius: 8px;
     margin-right: 10%;
     margin-left: 10%;
-    /* padding-bottom: 5px; /* Adjust the distance between text and underline as needed */
-    /* border-bottom: 2px solid #000; Adjust the color and thickness of the underline as needed */
-    /* width: 60%; */
-    /* max-width: 1200px; */
 }
 
 
@@ -163,10 +159,9 @@ footer {
     
 }
 .picture-center{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
     max-height: 100%;
 }
@@ -193,7 +188,7 @@ code {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* clickable boxes style */
+/* Knoppen hoofdpagina Frank */
 body-box {
     display: flex;
     justify-content: center;
@@ -236,7 +231,7 @@ body-box {
 }
 
 
-/* TABEL */
+/* TABEL STARTT */
 
 table {
     width: 100%;
@@ -260,6 +255,42 @@ td {
     padding: 15px; /* Increased padding for better spacing */
   }
 
+/* TABEL COMPETENTIES */
+.table2-style th, .table2-style td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .table2-style th {
+    background-color: #e0e0e0;
+    color: black;
+  }
+
+  .competentie-cell {
+    text-align: left !important;
+    font-size: 14px; /* Adjust the font size as needed */
+}
+/*-----------------------------------*/
+
+/* TABEL COMPETENTIES */
+
+table2 {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th2, td2 {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th2 {
+    background-color: #f2f2f2;
+  }
+
+/* ----- */
   /* Tekst opmaak */
 .kop3{
     font-size: 16px;
@@ -308,7 +339,7 @@ header {
     color: #555;
 }
 
-
+/* SMART TECHNOLOGY collage */
 .container2 {
     display: flex;
     flex-wrap: wrap;
@@ -334,8 +365,16 @@ header {
 .video-container {
     text-align: center;
   }
+/* -- */
+
 .koptekst-center {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+}
+/* SMART ME collage */
+.picture3 {
+    width: auto; /* Adjust the width as needed */
+    max-height: 450px;
+    border-radius: 5%;
 }
