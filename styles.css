@@ -19,6 +19,19 @@ footer {
     margin-top: 25px;
 }
 
+.footer-under {
+    text-align: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 6px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    z-index: 1;
+    /* margin-top: 25px; */
+}
+
 .text-box {
     background-color: #f0f0f0; 
     padding: 20px;
@@ -78,7 +91,7 @@ footer {
     margin-top: 50px; 
   }
 
-  /* plaatjes naast elkaar styling */
+ /* plaatjes naast elkaar styling */
 .container {
     display: flex;
     flex-direction: column;
@@ -112,13 +125,6 @@ footer {
 .note{
     font-size: 13;
     text-decoration:underline;
-}
-/* weghalen */
-.week-date{
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: underline;
-    text-align: center;
 }
 
 .week-heading {
@@ -247,12 +253,12 @@ th {
     color: #fff;
     width: 30%;
     position: relative;
-    padding: 15px; /* Increased padding for better spacing */
+    padding: 15px; 
 }
 td {
     border-bottom: 1px solid #ddd;
     width: 70%;
-    padding: 15px; /* Increased padding for better spacing */
+    padding: 15px; 
   }
 
 /* TABEL COMPETENTIES */
@@ -269,7 +275,7 @@ td {
 
   .competentie-cell {
     text-align: left !important;
-    font-size: 14px; /* Adjust the font size as needed */
+    font-size: 14px; 
 }
 /*-----------------------------------*/
 
@@ -357,7 +363,7 @@ header {
 }
 
 .picture2 {
-    width: 420px; /* Adjust the width as needed */
+    width: 420px; 
     height: 410px;
     border-radius: 5%;
 }
@@ -374,7 +380,7 @@ header {
 }
 /* SMART ME collage */
 .picture3 {
-    width: auto; /* Adjust the width as needed */
+    width: auto; 
     max-height: 450px;
     border-radius: 5%;
 }
