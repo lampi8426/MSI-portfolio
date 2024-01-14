@@ -49,7 +49,6 @@ footer {
     margin-left: 10%;
 }
 
-
 .banner {
     text-align: center;
     background-color: #093d39;
@@ -75,7 +74,6 @@ footer {
     font-weight: bold;
     margin: 0;
 }
-
 
 .banner-project{
     text-align: center;
@@ -109,12 +107,6 @@ footer {
     border-radius: 5%;
     margin-left: 20px;
 }
-  /* TROEPJE */
-  .image-section3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .text-box2 {
     display: flex;
@@ -123,7 +115,7 @@ footer {
 }
 
 .note{
-    font-size: 13;
+    font-size: 13px;
     text-decoration:underline;
 }
 
@@ -187,7 +179,7 @@ pre {
     overflow-x: auto;
     max-width: 600px; 
     white-space: pre-wrap; 
-    font-size: 12;
+    font-size: 12px;
   }
 
 code {
@@ -261,42 +253,7 @@ td {
     padding: 15px; 
   }
 
-/* TABEL COMPETENTIES */
-.table2-style th, .table2-style td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-  }
 
-  .table2-style th {
-    background-color: #e0e0e0;
-    color: black;
-  }
-
-  .competentie-cell {
-    text-align: left !important;
-    font-size: 14px; 
-}
-/*-----------------------------------*/
-
-/* TABEL COMPETENTIES */
-
-table2 {
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  th2, td2 {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-
-  th2 {
-    background-color: #f2f2f2;
-  }
-
-/* ----- */
   /* Tekst opmaak */
 .kop3{
     font-size: 16px;
