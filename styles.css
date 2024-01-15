@@ -341,3 +341,8 @@ header {
     max-height: 450px;
     border-radius: 5%;
 }
+
+embed {
+    width: 100vw;
+    height: 100vh;
+}
